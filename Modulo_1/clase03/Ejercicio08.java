@@ -11,6 +11,7 @@ public class Ejercicio08 {
         double altura = scanner.nextDouble();
         areaRectangulo(base, altura);
         perimetroRectangulo(base, altura);
+        scanner.close();
                     }
                 
                     private static void perimetroRectangulo(double base, double altura) {
