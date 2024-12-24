@@ -9,7 +9,7 @@ public class Ejercicio01 {
         System.out.println("inserte un numero para verificar si es negativa o positivo");
          int numero = scan.nextInt();
          scan.nextLine();
-         scan.close();
+         
 
          if (numero == 0) {
             System.out.println("el numero ingresado es 0");
@@ -19,5 +19,6 @@ public class Ejercicio01 {
          } else {
             System.out.println("el numero ingresado es Positivo");
          }
+         
     }
 }
