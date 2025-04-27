@@ -21,24 +21,28 @@ public class GestionClientes {
     public void registrarCliente(String id, String nombre){
         Cliente cliente = new Cliente(id, nombre);
         clientes.add(cliente);
+        System.out.println("Cliente registrado con exito");
     }
-    public void buscarCliente(String id){ 
-        if(!clientes.isEmpty()){
-            try{
-                for (Cliente cliente : clientes) {
-                    if(cliente.getId().equals(id)){
-                        System.out.println(cliente);
-                        break;
-                    }else{
-                        throw new ClienteNoEncontradoException("Cliente no encontrado");
-                    }
-                }
-            }catch(ClienteNoEncontradoException e){
-                System.out.println(e.getMessage());
+    public Cliente buscarCliente(String id){ 
+
+        for (Cliente cliente : clientes) {
+            if (cliente.getId().equals(id)) {
+                return cliente;
             }
-        }else{
-            System.out.println("No hay clientes registrados");
         }
+        throw new ClienteNoEncontradoException("Cliente con el ID: "+ id +" no encontrado");
+    }
+
+    public void showClientes(){
+        System.out.println("Clientes:");
+        if (!clientes.isEmpty()) {
+            for (Cliente cliente : clientes) {
+                System.out.println(cliente);
+            }
+            return;
+        } 
+            System.out.println("No hay clientes registrados");
+        
     }
   
 }

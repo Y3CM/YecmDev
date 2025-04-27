@@ -36,7 +36,7 @@ public void setFechaFin(String fechaFin) {
 
 @Override
 public String toString() {
-    return "Reserva [clienteId=" + clienteId + ", fechaInicio=" + fechaInicio + ", fechaFin=" + fechaFin + "]";
+    return "Reserva:\nId del cliente: " + clienteId + " - Fecha inicio: " + fechaInicio + " - Fecha final: " + fechaFin;
 }
 
 }
