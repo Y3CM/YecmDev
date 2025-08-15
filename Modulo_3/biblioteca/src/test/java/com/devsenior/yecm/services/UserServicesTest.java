@@ -17,9 +17,10 @@ public class UserServicesTest {
     public void setup() {
         userServices = new UserServices();
     }
+
     @Test
     void testAddUser() {
-        
+
         // WHEN
         userServices.addUser(username, email, id);
         // THEN
@@ -29,12 +30,11 @@ public class UserServicesTest {
     @Test
     void testGetUserById() throws NotFoundException {
 
-      userServices.addUser(username, email, id);
-      userServices.getUserById("1234");
+        userServices.addUser(username, email, id);
+        userServices.getUserById("1234");
 
-      assertEquals(1, userServices.getUsers().size());
+        assertEquals(1, userServices.getUsers().size());
 
-      
     }
 
     @Test
@@ -48,17 +48,16 @@ public class UserServicesTest {
         userServices.addUser(username2, email2, id2);
         // THEN
         assertEquals(2, userServices.getUsers().size());
-        
+
     }
 
     @Test
     void testUpdateUserEmail() throws NotFoundException {
         userServices.addUser(username, email, id);
-        
+
         userServices.updateUserEmail("1234", "YecmUpdated@gmail");
 
         assertEquals("YecmUpdated@gmail", userServices.getUserById("1234").getEmail());
-
 
     }
 

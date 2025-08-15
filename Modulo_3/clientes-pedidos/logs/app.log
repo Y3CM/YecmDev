@@ -43,3 +43,26 @@
 2025-07-06 11:40:02.088 [main] DEBUG com.devsenior.yecm.GestionPedidos - Los parametros son: 5 Panela 10
 2025-07-06 11:40:02.999 [main] WARN  com.devsenior.yecm.GestionPedidos - Cliente no existe: 5
 2025-07-06 11:40:31.160 [main] WARN  com.devsenior.yecm.Main - No se pudo agregar uno de los pedidos
+2025-07-25 19:13:25.820 [main] INFO  com.devsenior.yecm.Main - Inicia la ejecucion del programa
+2025-07-25 19:13:25.910 [main] DEBUG com.devsenior.yecm.Main - Registrando cliente (1, Andres)
+2025-07-25 19:13:25.920 [main] INFO  com.devsenior.yecm.Main - Se creo el cliente Andres con el id 1
+2025-07-25 19:13:25.925 [main] DEBUG com.devsenior.yecm.Main - Registrando cliente (2, Cristina)
+2025-07-25 19:13:25.949 [main] INFO  com.devsenior.yecm.Main - Se creo el cliente Cristina con el id 2
+2025-07-25 19:13:25.997 [main] DEBUG com.devsenior.yecm.Main - Registrando cliente (3, Fredy)
+2025-07-25 19:13:26.006 [main] INFO  com.devsenior.yecm.Main - Se creo el cliente Fredy con el id 3
+2025-07-25 19:13:26.144 [main] DEBUG com.devsenior.yecm.GestionPedidos - Creando una instancia de Gestion de pedidos
+2025-07-25 19:13:26.144 [main] DEBUG com.devsenior.yecm.Main - Creando el pedido (1, Panela, 2)
+2025-07-25 19:13:26.150 [main] DEBUG com.devsenior.yecm.GestionPedidos - Los parametros son: 1 Panela 2
+2025-07-25 19:13:26.151 [main] DEBUG com.devsenior.yecm.GestionPedidos - El cliente del pedido es: Cliente {id: 1, nombre: Andres}
+2025-07-25 19:13:26.221 [main] DEBUG com.devsenior.yecm.GestionPedidos - Agregando el pedido: Pedido {cliente: 1, producto: Panela, cantidad: 2}
+2025-07-25 19:13:26.223 [main] INFO  com.devsenior.yecm.GestionPedidos - Pedido agregado con exito: Pedido {cliente: 1, producto: Panela, cantidad: 2}
+2025-07-25 19:13:26.226 [main] DEBUG com.devsenior.yecm.Main - Creando el pedido (2, Arroz, 5)
+2025-07-25 19:13:26.242 [main] DEBUG com.devsenior.yecm.GestionPedidos - Los parametros son: 2 Arroz 5
+2025-07-25 19:13:26.242 [main] DEBUG com.devsenior.yecm.GestionPedidos - El cliente del pedido es: Cliente {id: 2, nombre: Cristina}
+2025-07-25 19:13:26.248 [main] DEBUG com.devsenior.yecm.GestionPedidos - Agregando el pedido: Pedido {cliente: 2, producto: Arroz, cantidad: 5}
+2025-07-25 19:13:26.248 [main] INFO  com.devsenior.yecm.GestionPedidos - Pedido agregado con exito: Pedido {cliente: 2, producto: Arroz, cantidad: 5}
+2025-07-25 19:13:26.250 [main] DEBUG com.devsenior.yecm.Main - Creando el pedido (5, Panela, 10)
+2025-07-25 19:13:26.253 [main] DEBUG com.devsenior.yecm.GestionPedidos - Los parametros son: 5 Panela 10
+2025-07-25 19:13:26.253 [main] WARN  com.devsenior.yecm.GestionPedidos - Cliente no existe: 5
+2025-07-25 19:13:26.262 [main] WARN  com.devsenior.yecm.Main - No se pudo agregar uno de los pedidos
+2025-07-25 19:13:26.277 [main] INFO  com.devsenior.yecm.Main - Salio de la aplicacion

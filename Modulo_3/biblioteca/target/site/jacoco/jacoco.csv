@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+biblioteca,com.devsenior.yecm.model,LoanState,0,24,0,0,0,2,0,1,0,1
+biblioteca,com.devsenior.yecm.model,Loan,10,35,0,0,3,13,2,6,2,6
+biblioteca,com.devsenior.yecm.model,User,7,39,0,0,3,15,2,7,2,7
+biblioteca,com.devsenior.yecm.model,Book,12,21,0,0,6,8,3,4,3,4
+biblioteca,com.devsenior.yecm.exception,NotFoundException,0,4,0,0,0,2,0,1,0,1
+biblioteca,com.devsenior.yecm.services,LoanService,11,103,5,5,3,26,7,5,2,5
+biblioteca,com.devsenior.yecm.services,BookServices,6,70,2,6,1,14,2,7,0,5
+biblioteca,com.devsenior.yecm.services,UserServices,18,83,6,6,3,17,6,6,0,6
+biblioteca,com.devsenior.yecm,Main,7,0,0,0,3,0,2,0,2,0
