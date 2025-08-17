@@ -1,5 +1,5 @@
 package com.devsenior.yecm;
-
+import com.devsenior.yecm.numeros.*;;
 public class Main {
     public static void main(String[] args) throws NotFoundException  {
         EstudiantesService estudiantesService = new EstudiantesService();
@@ -18,5 +18,9 @@ public class Main {
         estudiantesService.deleteEstudiante(4);
         System.out.println("Estudiantes registrados: ");
         estudiantesService.showListEstudiantes();
+
+        NumerosService numerosService = new NumerosService();
+        System.out.println("Numeros unicos: ");
+        numerosService.showUniqueNumbers();
     }
 }
